@@ -1,0 +1,172 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: white;
+}
+
+body {
+    line-height: 1.4rem;
+}
+
+header {
+    background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png) no-repeat center center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 1rem;
+    height: 30rem;
+}
+
+header .flex {
+    justify-content: flex-end;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+nav {
+    padding: 1rem 0;
+    background-color: cadetblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img {
+    height: 1.8rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+}
+
+nav span {
+	margin-left: 1em;
+}
+
+ul {
+    margin-right: 1rem;
+    display:block;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0 1rem;
+margin-right: 1rem;
+
+}
+
+.truncated-menu {
+    display: none;
+}
+
+.menu ul {
+	margin-right: 5em;
+    display: flex;
+    align-items: center;
+
+}
+
+.main-banner {
+    background-color: white;
+    padding: 0.75rem 5rem;
+    display: inline-block;
+    margin-top: 10rem;
+    margin-right: -2rem;
+    line-height: 2.4rem;
+}
+
+.main-banner h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: .67em 0;
+}
+
+.supporting {
+    display: flex;
+    justify-content: center;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 3rem;
+    width: 10rem;
+    height: 8rem;
+}
+
+.service div {
+	margin-top: 1em;
+}
+
+.info {
+    width: 35%;
+    margin-right: 5%;
+    margin-bottom: 4rem;
+}
+
+.title {
+    background-color: cadetblue;
+    font-weight: bold;
+    color: white;
+    max-width: 10rem;
+    padding: 0.5rem 1.25rem;
+}
+
+.info p {
+    padding: 1rem 0px;
+    max-width: 300px;
+}
+
+footer div{
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    padding: 4rem 2rem;
+
+}
+
+footer img {
+    height: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    mar
+
+}
+
+@media only screen and (max-width: 1024px){
+header {
+    padding-top: 0;
+    height: 22rem;
+}
+
+
+.main-banner {
+    padding: 0.75rem 4rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
+}
+
+nav.container {
+    max-width: 100%;
+}
+}
+
+@media only screen and (max-width: 700px){
+.menu ul {
+    display: none;
+}
+}
